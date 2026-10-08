@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boceto digital | Robot Hexápodo</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* estilos solo para el boceto */
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            background-color: #fdf1f1;
+            color: #3b2a2d;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .hoja {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-family: 'Poppins', Arial, sans-serif;
+            font-weight: 600;
+            font-size: 44px;
+            margin: 0 0 6px 0;
+        }
+
+        h2 {
+            font-family: 'Quicksand', Arial, sans-serif;
+            font-size: 24px;
+            margin: 40px 0 12px 0;
+        }
+
+        .etiqueta {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+
+        .caja {
+            border: 2px dashed #eebbbb;
+            border-radius: 14px;
+            padding: 16px;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+        }
+
+        .caja b {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .fila {
+            display: flex;
+            gap: 10px;
+        }
+
+        .fila .caja {
+            flex: 1;
+        }
+
+        .oscura {
+            background-color: #3b2a2d;
+            color: #fdf1f1;
+            border-color: #3b2a2d;
+        }
+
+        .verde {
+            border-color: #88DC65;
+        }
+
+        .paleta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .color {
+            width: 110px;
+            height: 70px;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-end;
+            padding: 6px;
+            font-size: 12px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 600px) {
+            .fila {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hoja">
+        <h1>Robot Hexápodo</h1>
+        <p class="etiqueta">Boceto digital: arquitectura visual del sitio antes del desarrollo.</p>
+
+        <h2>Página 1: Inicio (index.html)</h2>
+        <div class="caja"><b>Header / navegación</b>Logo · Inicio · Misión y visión · Proyecto · Contacto</div>
+        <div class="fila">
+            <div class="caja"><b>Inicio</b>Robot Hexápodo + subtítulos + texto + botón “Conoce nuestro robot”</div>
+            <div class="caja verde"><b>Ilustración</b>Dibujo del robot visto desde arriba</div>
+        </div>
+        <div class="caja oscura"><b>Botones de temas</b>¿Qué es? · Naturaleza · Partes · Movimiento · Física · Impacto · Equipo</div>
+        <div class="fila">
+            <div class="caja"><b>¿Qué es el proyecto?</b>Texto + lista con viñetas verdes</div>
+            <div class="caja verde"><b>Imagen</b>Partes del robot</div>
+        </div>
+        <div class="caja oscura"><b>Propuesta de valor</b>Aprender. Crear. Innovar. + slogan</div>
+        <div class="caja"><b>Llamado a la acción</b>¿Quieres conocer cómo funciona? + imagen del insecto</div>
+        <div class="caja oscura"><b>Footer</b>Logo · navegación · equipo · derechos</div>
+
+        <h2>Página 2: Misión y visión (mision-vision.html)</h2>
+        <div class="fila">
+            <div class="caja"><b>Misión</b>Texto</div>
+            <div class="caja verde"><b>Visión</b>Texto</div>
+        </div>
+        <div class="caja"><b>Valores</b>Lista con viñetas verdes + imagen</div>
+        <div class="caja"><b>Equipo de trabajo</b>Ilustración + 5 cajas con nombre y tema de cada integrante</div>
+
+        <h2>Página 3: Proyecto (proyecto.html)</h2>
+        <div class="caja oscura"><b>Barra de temas</b>Naturaleza · Partes · Movimiento · Física · Impacto</div>
+        <div class="caja"><b>Naturaleza</b>Franja oscura con texto + “Del insecto al robot”</div>
+        <div class="caja"><b>Partes del robot</b>Lista + ilustración</div>
+        <div class="fila">
+            <div class="caja"><b>¿Cómo camina?</b>Marcha en trípode + giro sobre su eje</div>
+            <div class="caja verde"><b>Demo</b>Robot con botón “Ver caminar”</div>
+        </div>
+        <div class="caja"><b>Física</b>Diagrama + 6 cajas (Newton, fricción, torque, equilibrio)</div>
+        <div class="caja"><b>Matriz de impacto sociocultural</b>Tabla</div>
+        <div class="caja oscura"><b>Cierre</b>Frase final + botón al equipo</div>
+
+        <h2>Página 4: Contacto (contacto.html)</h2>
+        <div class="fila">
+            <div class="caja"><b>Información</b>Temas sobre los que pueden preguntar + imagen</div>
+            <div class="caja"><b>Formulario</b>Nombre · Correo · Mensaje · Enviar</div>
+        </div>
+
+        <h2>Paleta y tipografía</h2>
+        <div class="paleta">
+            <div class="color" style="background:#FFC0CB">#FFC0CB</div>
+            <div class="color" style="background:#eebbbb">#eebbbb</div>
+            <div class="color" style="background:#f6c8c7">#f6c8c7</div>
+            <div class="color" style="background:#f9d6d5">#f9d6d5</div>
+            <div class="color" style="background:#fbe3e3">#fbe3e3</div>
+            <div class="color" style="background:#fdf1f1; border: 1px solid #eebbbb">#fdf1f1</div>
+            <div class="color" style="background:#88DC65">#88DC65 viñetas</div>
+            <div class="color" style="background:#3b2a2d; color:#fdf1f1">#3b2a2d texto</div>
+        </div>
+        <p style="margin-top: 16px;">Títulos: Poppins · Texto: Open Sans · Subtítulos y nombres: Quicksand (Google Fonts)</p>
+        <p style="margin-top: 30px;"><a href="index.html" style="color:#3b2a2d">Volver al sitio</a></p>
+    </div>
+</body>
+</html>

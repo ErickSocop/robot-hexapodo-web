@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 -200 400 400">
+                    <g><line x1="-40" y1="-52" x2="-128" y2="-118" stroke="#3b2a2d" stroke-width="9" stroke-linecap="round"/><circle cx="-128" cy="-118" r="9" fill="#3b2a2d"/></g>
+                    <g><line x1="-46" y1="0" x2="-150" y2="0" stroke="#3b2a2d" stroke-width="9" stroke-linecap="round"/><circle cx="-150" cy="0" r="9" fill="#3b2a2d"/></g>
+                    <g><line x1="-40" y1="52" x2="-128" y2="118" stroke="#3b2a2d" stroke-width="9" stroke-linecap="round"/><circle cx="-128" cy="118" r="9" fill="#3b2a2d"/></g>
+                    <g><line x1="40" y1="-52" x2="128" y2="-118" stroke="#3b2a2d" stroke-width="9" stroke-linecap="round"/><circle cx="128" cy="-118" r="9" fill="#3b2a2d"/></g>
+                    <g><line x1="46" y1="0" x2="150" y2="0" stroke="#3b2a2d" stroke-width="9" stroke-linecap="round"/><circle cx="150" cy="0" r="9" fill="#3b2a2d"/></g>
+                    <g><line x1="40" y1="52" x2="128" y2="118" stroke="#3b2a2d" stroke-width="9" stroke-linecap="round"/><circle cx="128" cy="118" r="9" fill="#3b2a2d"/></g>
+                    <path d="M -28 -80 L 28 -80 L 46 -42 L 46 42 L 28 80 L -28 80 L -46 42 L -46 -42 Z" fill="#fdf1f1" stroke="#3b2a2d" stroke-width="5" stroke-linejoin="round"/>
+                    <path d="M -20 -80 Q 0 -104 20 -80 Z" fill="#3b2a2d"/>
+                    <rect x="-24" y="-46" width="48" height="58" rx="4" fill="#88DC65"/>
+                    <rect x="-20" y="24" width="40" height="34" rx="5" fill="#eebbbb"/>
+                    <g fill="#f6c8c7" stroke="#3b2a2d" stroke-width="3">
+                        <circle cx="-40" cy="-52" r="9"/><circle cx="-46" cy="0" r="9"/><circle cx="-40" cy="52" r="9"/>
+                        <circle cx="40" cy="-52" r="9"/><circle cx="46" cy="0" r="9"/><circle cx="40" cy="52" r="9"/>
+                    </g>
+                </svg>

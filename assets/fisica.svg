@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="Arial, sans-serif" font-size="15">
+  <rect width="400" height="400" rx="24" fill="#f9d6d5"/>
+  <rect x="40" y="300" width="320" height="14" rx="4" fill="#eebbbb"/>
+  <rect x="120" y="120" width="160" height="60" rx="18" fill="#fdf1f1" stroke="#3b2a2d" stroke-width="5"/>
+  <g stroke="#3b2a2d" stroke-width="7" stroke-linecap="round" fill="none">
+    <path d="M150 180 L120 230 L140 300"/>
+    <path d="M250 180 L280 230 L260 300"/>
+  </g>
+  <g stroke="#3b2a2d" stroke-width="3" fill="#3b2a2d">
+    <line x1="140" y1="340" x2="80" y2="340"/><polygon points="80,333 66,340 80,347"/>
+    <line x1="260" y1="270" x2="330" y2="270" stroke="#80D85B"/><polygon points="330,263 344,270 330,277" fill="#80D85B" stroke="#80D85B"/>
+  </g>
+  <text x="40" y="368" fill="#3b2a2d">La pata empuja el suelo</text>
+  <text x="246" y="252" fill="#3b2a2d">El suelo empuja</text>
+  <text x="246" y="236" fill="#3b2a2d">al robot</text>
+  <text x="200" y="70" text-anchor="middle" fill="#3b2a2d" font-weight="bold">Acción y reacción</text>
+</svg>

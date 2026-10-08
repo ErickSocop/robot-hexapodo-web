@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Hexápodo | Proyecto</title>
+    <meta name="description" content="Cómo funciona el robot hexápodo: inspiración en los insectos, partes, movimiento, física e impacto.">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor barra">
+            <a href="index.html" class="logo">
+                <img src="assets/logo-header.png" alt="Logo del robot hexápodo">
+                Robot Hexápodo
+            </a>
+            <button class="menu-btn">Menú</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="mision-vision.html">Misión y visión</a></li>
+                    <li><a href="proyecto.html" class="activo">Proyecto</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="fondo2">
+        <div class="contenedor">
+            <h1>El proyecto</h1>
+            <p>Un robot de seis patas que aprendió a caminar de los insectos. Aquí te contamos cómo funciona.</p>
+        </div>
+    </section>
+
+    <!-- botones de temas -->
+    <div class="temas">
+        <div class="contenedor">
+            <a href="#naturaleza">Naturaleza</a>
+            <a href="#partes">Partes</a>
+            <a href="#movimiento">Movimiento</a>
+            <a href="#fisica">Física</a>
+            <a href="#impacto">Impacto</a>
+        </div>
+    </div>
+
+    <!-- naturaleza -->
+    <section id="naturaleza" class="oscuro">
+        <div class="contenedor">
+            <h2>Aprendimos a caminar de los insectos</h2>
+            <p>Todos los insectos tienen seis patas y casi todos caminan igual: mueven tres patas mientras las otras tres los sostienen. Ese patrón es la base de nuestro robot.</p>
+        </div>
+    </section>
+
+    <section class="fondo1">
+        <div class="contenedor dos-columnas">
+            <div>
+                <h2>Del insecto al robot</h2>
+                <ul class="lista">
+                    <li><strong>Tórax - Chasis:</strong> donde se unen las seis patas.</li>
+                    <li><strong>Patas articuladas - Patas mecánicas:</strong> cada una gira desde el cuerpo.</li>
+                    <li><strong>Sistema nervioso - Arduino:</strong> decide el orden de cada movimiento.</li>
+                    <li><strong>Marcha en trípode - Programa:</strong> tres patas avanzan y tres sostienen.</li>
+                </ul>
+            </div>
+            <div>
+                <img src="assets/insecto.svg" alt="Ilustración de un escarabajo con sus seis patas">
+            </div>
+        </div>
+    </section>
+
+    <!-- partes -->
+    <section id="partes" class="fondo2">
+        <div class="contenedor dos-columnas">
+            <div>
+                <img src="assets/partes.svg" alt="Ilustración de las partes del robot: Arduino, batería, motores y patas">
+            </div>
+            <div>
+                <h2>Partes del robot</h2>
+                <ul class="lista">
+                    <li><strong>Chasis:</strong> la estructura que sostiene todo. Usamos materiales ligeros y resistentes.</li>
+                    <li><strong>Arduino:</strong> el cerebro del robot, donde está el programa.</li>
+                    <li><strong>Motores:</strong> generan el giro que mueve las patas (transmisión de movimiento).</li>
+                    <li><strong>Seis patas:</strong> divididas en dos grupos de tres.</li>
+                    <li><strong>Batería:</strong> da energía al Arduino y a los motores.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- movimiento -->
+    <section id="movimiento" class="fondo3">
+        <div class="contenedor dos-columnas">
+            <div>
+                <h2>¿Cómo camina?</h2>
+                <p>El robot usa la <strong>marcha en trípode</strong>, igual que los insectos:</p>
+                <ul class="lista">
+                    <li>Tres patas (delantera izquierda, media derecha y trasera izquierda) se apoyan en el suelo y forman un triángulo.</li>
+                    <li>Esas patas empujan hacia atrás y el robot avanza.</li>
+                    <li>Mientras tanto, las otras tres se levantan y se mueven hacia adelante.</li>
+                    <li>Luego cambian de grupo y se repite. Siempre hay tres patas en el suelo.</li>
+                </ul>
+                <p><strong>Giro sobre su propio eje:</strong> si las patas de un lado van hacia adelante y las del otro hacia atrás, el robot gira en su lugar.</p>
+            </div>
+            <div>
+                <div class="demo">
+                    <img src="assets/robot.svg" alt="Dibujo del robot hexápodo visto desde arriba" id="robot-demo">
+                    <p id="estado">Presiona el botón para verlo caminar</p>
+                    <button id="btn-caminar" class="boton">Ver caminar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fondo1">
+        <div class="contenedor dos-columnas">
+            <div>
+                <img src="assets/marcha.svg" alt="Diagrama de los dos trípodes de patas que se turnan para caminar">
+            </div>
+            <div>
+                <h2>Siempre en equilibrio</h2>
+                <p>Las tres patas apoyadas forman un triángulo. Mientras el centro del robot quede dentro de ese triángulo, el robot no se cae. Por eso un hexápodo es tan estable, incluso en terrenos difíciles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- fisica -->
+    <section id="fisica" class="fondo2">
+        <div class="contenedor">
+            <div class="dos-columnas">
+                <div>
+                    <h2>La física detrás de cada paso</h2>
+                    <p>El robot es una forma práctica de ver los conceptos que estudiamos en clase.</p>
+                </div>
+                <div>
+                    <img src="assets/fisica.svg" alt="Diagrama de acción y reacción: la pata empuja el suelo y el suelo empuja al robot">
+                </div>
+            </div>
+
+            <div class="cajas">
+                <div class="caja">
+                    <p class="formula">ΣF = 0</p>
+                    <h3>Primera ley de Newton</h3>
+                    <p>Si nada lo empuja, el robot se queda quieto. Necesita que sus patas empujen para empezar a moverse.</p>
+                </div>
+                <div class="caja">
+                    <p class="formula">F = m · a</p>
+                    <h3>Segunda ley de Newton</h3>
+                    <p>Mientras más pesa, más fuerza necesita para moverse. Por eso cuidamos el peso de cada pieza.</p>
+                </div>
+                <div class="caja">
+                    <p class="formula">Acción = Reacción</p>
+                    <h3>Tercera ley de Newton</h3>
+                    <p>La pata empuja el suelo hacia atrás y el suelo empuja al robot hacia adelante. Así avanza.</p>
+                </div>
+                <div class="caja">
+                    <p class="formula">f = μ · N</p>
+                    <h3>Fricción</h3>
+                    <p>Sin fricción las patas resbalarían. El agarre con el suelo es lo que permite empujar.</p>
+                </div>
+                <div class="caja">
+                    <p class="formula">τ = F · r</p>
+                    <h3>Torque</h3>
+                    <p>Es la fuerza que hace girar cada motor. Una pata más larga necesita más torque.</p>
+                </div>
+                <div class="caja">
+                    <p class="formula">Equilibrio</p>
+                    <h3>Estabilidad</h3>
+                    <p>El centro del robot debe quedar dentro del triángulo que forman las patas apoyadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- impacto -->
+    <section id="impacto" class="fondo1">
+        <div class="contenedor">
+            <h2>Matriz de impacto sociocultural</h2>
+            <p>Lo que nuestro proyecto aporta más allá del robot.</p>
+            <table>
+                <tr>
+                    <th>Área de impacto</th>
+                    <th>Impacto del proyecto</th>
+                </tr>
+                <tr>
+                    <td>Educación</td>
+                    <td>Permite aplicar conocimientos de robótica, física, programación, electrónica y mecánica de una manera práctica.</td>
+                </tr>
+                <tr>
+                    <td>Innovación tecnológica</td>
+                    <td>Promueve la creación de nuevas ideas y el desarrollo de soluciones mediante la tecnología.</td>
+                </tr>
+                <tr>
+                    <td>Cultura científica</td>
+                    <td>Despierta el interés por la ciencia y demuestra cómo los conocimientos científicos pueden aplicarse a proyectos reales.</td>
+                </tr>
+                <tr>
+                    <td>Trabajo colaborativo</td>
+                    <td>Fortalece la comunicación, organización y cooperación entre los estudiantes.</td>
+                </tr>
+                <tr>
+                    <td>Medioambiente</td>
+                    <td>Sirve como modelo para estudiar formas de desplazamiento que pueden utilizarse en terrenos donde otros tipos de robots presentan dificultades.</td>
+                </tr>
+                <tr>
+                    <td>Sociedad</td>
+                    <td>Motiva a los jóvenes a interesarse por la tecnología y a desarrollar habilidades que pueden contribuir a futuras soluciones para la comunidad.</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo de habilidades</td>
+                    <td>Fortalece el pensamiento crítico, la resolución de problemas, la creatividad y la capacidad de trabajar en equipo.</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- cierre -->
+    <section class="oscuro">
+        <div class="contenedor">
+            <blockquote>"Creemos que la tecnología no solo consiste en construir máquinas, sino en aprender, crear y encontrar nuevas formas de transformar nuestro entorno."</blockquote>
+            <a href="mision-vision.html#equipo" class="boton boton-rosa">Conoce al equipo</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <h3>Robot Hexápodo</h3>
+            <p>Inspirados por la naturaleza, impulsados por la tecnología.</p>
+            <p>
+                <a href="index.html">Inicio</a>
+                <a href="mision-vision.html">Misión y visión</a>
+                <a href="proyecto.html">Proyecto</a>
+                <a href="contacto.html">Contacto</a>
+            </p>
+            <p>Equipo: Zoé, Javi, Jime, Nicoole y María Andrée</p>
+            <p>© 2026 Robot Hexápodo. Proyecto educativo estudiantil.</p>
+        </div>
+    </footer>
+
+    <button class="subir">Subir</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
